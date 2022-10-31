@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.fondo{
+    background: url(./fiesta.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-position: top left;
+    animation: mover 15s linear infinite;
+}
+
+/*REGLA*/
+
+@keyframes mover{
+    0% {background-position: 0 0;}
+    100% {background-position: 0px 600px;}
+}
